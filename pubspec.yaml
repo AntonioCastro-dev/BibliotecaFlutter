@@ -1,0 +1,34 @@
+name: flutter_biblioteca
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.8.4
+  firebase_core: ^2.14.0
+  pdf: ^3.10.4
+  path_provider: ^2.0.15
+  open_file: ^3.3.2
+  fl_chart: ^0.63.0
+  intl: ^0.18.0
+  # screenshot: ^2.5.0   # Elimina esta línea si ya no la necesitas
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/1984.jpg
+    - assets/images/cienanosdesoledad.jpg
+    - assets/images/harrypotter1.jpg
+    - assets/images/donquijote.jpg
+    - assets/images/cronica.jpg
+    - assets/images/elsenordelosanillos.jpg
